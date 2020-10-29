@@ -1,0 +1,107 @@
+"BusType": "AC",
+    "Source": "Delhi",
+    "Destination": "Pune",
+    "Departure": "12:30PM",
+    "Arrival": "2:30AM",
+    "Fare": 1200,
+    "TravelDate": "14/07/2020",
+
+
+
+    "BusType": "Non-AC",
+    "Source": "Delhi",
+    "Destination": "Chennai",
+    "Departure": "11:30AM",
+    "Arrival": "12:30PM",
+    "Fare": 1400,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "Non-AC",
+    "Source": "Chennai",
+    "Destination": "Delhi",
+    "Departure": "11:30AM",
+    "Arrival": "12:30PM",
+    "Fare": 1400,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "Non-AC",
+    "Source": "Chennai",
+    "Destination": "Banglore",
+    "Departure": "11:30AM",
+    "Arrival": "12:30PM",
+    "Fare": 1400,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "Non-AC",
+    "Source": "Hyderabad",
+    "Destination": "Banglore",
+    "Departure": "11:30AM",
+    "Arrival": "08:30PM",
+    "Fare": 850,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "Non-AC",
+    "Source": "Banglore",
+    "Destination": "Hyderabad",
+    "Departure": "06:30PM",
+    "Arrival": "11:30PM",
+    "Fare": 850,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "Non-AC",
+    "Source": "Pune",
+    "Destination": "Hyderabad",
+    "Departure": "06:30PM",
+    "Arrival": "05:30PM",
+    "Fare": 1850,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "AC",
+    "Source": "Pune",
+    "Destination": "Hyderabad",
+    "Departure": "07:30PM",
+    "Arrival": "03:30PM",
+    "Fare": 2850,
+    "TravelDate": "14/07/2020",
+
+
+    BusType": "AC",
+    "Source": "Banglore",
+    "Destination": "Hyderabad",
+    "Departure": "07:30PM",
+    "Arrival": "03:30PM",
+    "Fare": 1550,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "AC",
+    "Source": "Delhi",
+    "Destination": "Hyderabad",
+    "Departure": "07:30PM",
+    "Arrival": "09:30PM",
+    "Fare": 3550,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "Non-AC",
+    "Source": "Delhi",
+    "Destination": "Hyderabad",
+    "Departure": "07:30PM",
+    "Arrival": "09:30PM",
+    "Fare": 2550,
+    "TravelDate": "14/07/2020",
+
+
+    "BusType": "Non-AC",
+    "Source": "Hyderabad",
+    "Destination": "Delhi",
+    "Departure": "04:20PM",
+    "Arrival": "09:50PM",
+    "Fare": 2150,
+    "TravelDate": "14/07/2020",

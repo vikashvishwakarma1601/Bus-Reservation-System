@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Panel</title>
+    <link rel="stylesheet" href="./stylesheets/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="bg">
+        <div class="container">
+            <div class="form-control">
+                <div class="head">
+
+                    <head>New user Sign up</head>
+                </div>
+                <form action="/users/register/" method="post">
+
+                    <label for="username">Name :</label>
+                    <div class="form-group">
+                        <div><i class="fa fa-user"></i></div><span></span>
+                        <input type="name" id="username" placeholder="Enter your name" name="username" />
+                    </div><br>
+
+                    <label for="userEmail">Email :</label>
+                    <div class="form-group">
+                        <div><i class="fa fa-envelope"></i></div><span></span>
+                        <input type="email" id="userEmail" placeholder="Enter your email" name="email" />
+                    </div><br>
+
+                    <label for="mobile">Mobile :</label>
+                    <div class="form-group">
+                        <div><i class="fa fa-phone"></i></div><span></span>
+                        <input type="number" id="mobile" placeholder="Contact number" name="mobile" />
+                    </div><br>
+
+                    <label>Gender :</label>
+                    <div class="form-group gender">
+                        
+                        <div class="genderMale">
+                            <input type="radio" id="male" name="gender" value="Male" />
+                            <label class="male" for="male"><div><i class="fa fa-male"></i></div></label>
+                        </div>
+                        <span></span>
+                        <div class="genderFemale">
+                            <input type="radio" id="female" name="gender" value="Female" />
+                            <label class="female" for="female"><div><i class="fa fa-female"></i></div></label>
+                        </div>
+
+                    </div><br>
+
+                    <label for="pwd">Password :</label>
+                    <div class="form-group">
+                        <div><i class="fa fa-key"></i></div><span></span>
+                        <input type="password" id="pwd" placeholder="password" name="password" />
+                    </div><br>
+
+                    <button>Register</button>
+
+                    <a href="#">Existing User?<span>Login Here</span> </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

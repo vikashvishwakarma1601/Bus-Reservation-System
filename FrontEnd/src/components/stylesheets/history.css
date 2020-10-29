@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8b8b8b24;
+    /* background-color: #B7FFEE; */
+
+    font-family: 'Nunito',sans-serif;
+}
+
+.history-conatiner{
+    width: 900px;
+    margin: 5% auto
+}
+
+.header-ticket{
+    width: 100%;
+    padding: 10px;
+    background-color: #e2c5c5d7;
+    letter-spacing:2px;
+    font-size: 19px;
+    color: rgb(90, 70, 70);
+    font-weight:700;
+    margin-bottom: 40px;
+    border-radius: 3px;
+}
+
+.ticket{
+    width: 100%;
+    margin:0;
+    background-color: #ffff;
+    display:grid;
+    grid-template-columns: 300px auto;
+    box-shadow: 2px 2px 10px #adadad,
+    -2px -2px 10px #ffffff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.ticket-image{
+    width: 100%;
+    background-color: #d1959565;
+    border-right: 3px dashed #6e6b6b98;
+}
+
+.ticket-image img{
+    margin-top: -30px;
+    width: 100%;
+}
+
+.ticket-body{
+    padding: 10px;
+}
+
+.ticket-header{
+    width: 100%;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom: 2px solid #6e6b6b98;
+}
+
+.ticket span{
+    font-weight:600;
+}
+
+.ticket h2{
+    color: rgb(7, 185, 60);
+    font-size: 14px;
+    letter-spacing:2px;
+}
+
+.ticket h2 span{
+    color: rgb(107, 98, 98);
+}
+
+.ticket .row{
+    width: 100%;
+    letter-spacing: 1px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.ticket .name-row{
+    margin-bottom: 10px;
+}
+.ticket .name-row span:not(:first-child){
+    font-weight: 700;
+    color: black;
+}
+.ticket .row div{
+    width: 200px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ticket .row div span:last-child{
+    font-weight: 700;
+    color: black;
+}
+.ticket .travel div{
+    width:250px;
+}
+
+.ticket .name{
+    margin-left: 10px;
+}
+
+
+.ticket .loading-msg{
+    width: 100%;
+    background-color: #FFFF;
+    box-shadow: 2px 2px 10px #adadad,
+    -2px -2px 10px #ffffff;
+    padding:10px;
+    margin:6px auto;
+    color:blue;
+    font-weight:600;
+    letter-spacing:1px;
+    border-radius:3px;
+}
